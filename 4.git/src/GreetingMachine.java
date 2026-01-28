@@ -4,6 +4,10 @@ public class GreetingMachine {
         System.out.println("Hello World!");
     }
 
+    public void greet(String message) {
+        System.out.println(message);
+    }
+
     public static void main(String[] args) {
         GreetingMachine gm = new GreetingMachine();
         gm.greet();
